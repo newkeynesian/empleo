@@ -1,0 +1,449 @@
+clave,ent,year,var,value,cuartil
+1,Aguascalientes,2016,Levels,-0.003660679,1st quartile
+2,Baja California,2016,Levels,0.068874121,1st quartile
+3,Baja California Sur,2016,Levels,0.10053468,3rd quartile
+4,Campeche,2016,Levels,-0.047754049,1st quartile
+5,Coahuila,2016,Levels,0.035126925,4th quartile
+6,Colima,2016,Levels,0.11079693,2nd quartile
+7,Chiapas,2016,Levels,-0.30365944,1st quartile
+8,Chihuahua,2016,Levels,0.068125963,2nd quartile
+9,Mexico City,2016,Levels,0.01723671,1st quartile
+10,Durango,2016,Levels,0.06590724,4th quartile
+11,Guanajuato,2016,Levels,0.060101509,3rd quartile
+12,Guerrero,2016,Levels,0.15996766,1st quartile
+13,Hidalgo,2016,Levels,-0.019706249,4th quartile
+14,Jalisco,2016,Levels,0.13383341,2nd quartile
+15,Mexico,2016,Levels,0.056682348,1st quartile
+16,Michoacan,2016,Levels,0.10020089,2nd quartile
+17,Morelos,2016,Levels,0.10361743,2nd quartile
+18,Nayarit,2016,Levels,0.095860004,3rd quartile
+19,Nuevo Leon,2016,Levels,0.063787222,2nd quartile
+20,Oaxaca,2016,Levels,0.028054476,4th quartile
+21,Puebla,2016,Levels,0.056127071,2nd quartile
+22,Queretaro,2016,Levels,0.10250163,2nd quartile
+23,Quintana Roo,2016,Levels,0.01966095,4th quartile
+24,San Luis Potosi,2016,Levels,-0.023285389,1st quartile
+25,Sinaloa,2016,Levels,0.059347868,4th quartile
+26,Sonora,2016,Levels,0.055321455,3rd quartile
+27,Tabasco,2016,Levels,-0.043645144,3rd quartile
+28,Tamaulipas,2016,Levels,0.070524216,3rd quartile
+29,Tlaxcala,2016,Levels,0.09454298,3rd quartile
+30,Veracruz,2016,Levels,0.032500744,4th quartile
+31,Yucatan,2016,Levels,0.12492013,3rd quartile
+32,Zacatecas,2016,Levels,-0.052975178,4th quartile
+1,Aguascalientes,2017,Levels,0.012380838,1st quartile
+2,Baja California,2017,Levels,0.082264662,4th quartile
+3,Baja California Sur,2017,Levels,0.10425806,3rd quartile
+4,Campeche,2017,Levels,-0.07601881,4th quartile
+5,Coahuila,2017,Levels,0.02200985,2nd quartile
+6,Colima,2017,Levels,0.13937449,4th quartile
+7,Chiapas,2017,Levels,-0.33696747,3rd quartile
+8,Chihuahua,2017,Levels,0.071120262,3rd quartile
+9,Mexico City,2017,Levels,0.009649038,1st quartile
+10,Durango,2017,Levels,0.005372763,1st quartile
+11,Guanajuato,2017,Levels,0.052455425,2nd quartile
+12,Guerrero,2017,Levels,0.045915365,1st quartile
+13,Hidalgo,2017,Levels,0.045596838,1st quartile
+14,Jalisco,2017,Levels,0.11610341,2nd quartile
+15,Mexico,2017,Levels,0.043225765,2nd quartile
+16,Michoacan,2017,Levels,0.12382174,4th quartile
+17,Morelos,2017,Levels,0.10461068,3rd quartile
+18,Nayarit,2017,Levels,0.091640949,3rd quartile
+19,Nuevo Leon,2017,Levels,0.075511217,4th quartile
+20,Oaxaca,2017,Levels,0.047424793,4th quartile
+21,Puebla,2017,Levels,0.064493895,3rd quartile
+22,Queretaro,2017,Levels,0.076136351,2nd quartile
+23,Quintana Roo,2017,Levels,0.043091059,4th quartile
+24,San Luis Potosi,2017,Levels,-0.022442341,3rd quartile
+25,Sinaloa,2017,Levels,0.05432725,3rd quartile
+26,Sonora,2017,Levels,0.028245211,1st quartile
+27,Tabasco,2017,Levels,-0.068144083,4th quartile
+28,Tamaulipas,2017,Levels,0.058765888,2nd quartile
+29,Tlaxcala,2017,Levels,0.085789204,2nd quartile
+30,Veracruz,2017,Levels,-0.005502462,1st quartile
+31,Yucatan,2017,Levels,0.11265326,2nd quartile
+32,Zacatecas,2017,Levels,-0.006307364,1st quartile
+1,Aguascalientes,2018,Levels,-0.010748148,1st quartile
+2,Baja California,2018,Levels,0.073031664,1st quartile
+3,Baja California Sur,2018,Levels,0.11071205,2nd quartile
+4,Campeche,2018,Levels,-0.077706337,2nd quartile
+5,Coahuila,2018,Levels,0.041080475,4th quartile
+6,Colima,2018,Levels,0.1440568,2nd quartile
+7,Chiapas,2018,Levels,-0.37633824,3rd quartile
+8,Chihuahua,2018,Levels,0.040892124,1st quartile
+9,Mexico City,2018,Levels,0.019993305,4th quartile
+10,Durango,2018,Levels,0.026900291,4th quartile
+11,Guanajuato,2018,Levels,0.091175795,4th quartile
+12,Guerrero,2018,Levels,0.19206333,4th quartile
+13,Hidalgo,2018,Levels,0.057140827,3rd quartile
+14,Jalisco,2018,Levels,0.11126423,2nd quartile
+15,Mexico,2018,Levels,0.061369896,3rd quartile
+16,Michoacan,2018,Levels,0.12701392,2nd quartile
+17,Morelos,2018,Levels,0.072236061,1st quartile
+18,Nayarit,2018,Levels,0.1332345,3rd quartile
+19,Nuevo Leon,2018,Levels,0.062447071,1st quartile
+20,Oaxaca,2018,Levels,0.11825562,4th quartile
+21,Puebla,2018,Levels,0.079153538,3rd quartile
+22,Queretaro,2018,Levels,0.092700243,3rd quartile
+23,Quintana Roo,2018,Levels,0.046782494,2nd quartile
+24,San Luis Potosi,2018,Levels,-0.020380497,1st quartile
+25,Sinaloa,2018,Levels,0.063694715,3rd quartile
+26,Sonora,2018,Levels,0.014297962,1st quartile
+27,Tabasco,2018,Levels,-0.10010886,4th quartile
+28,Tamaulipas,2018,Levels,0.0570755,2nd quartile
+29,Tlaxcala,2018,Levels,0.09858036,3rd quartile
+30,Veracruz,2018,Levels,-0.042358637,4th quartile
+31,Yucatan,2018,Levels,0.1106596,2nd quartile
+32,Zacatecas,2018,Levels,0.007339001,1st quartile
+1,Aguascalientes,2019,Levels,-0.011871815,4th quartile
+2,Baja California,2019,Levels,0.069594145,3rd quartile
+3,Baja California Sur,2019,Levels,0.061342001,1st quartile
+4,Campeche,2019,Levels,0.005967379,1st quartile
+5,Coahuila,2019,Levels,0.044399977,4th quartile
+6,Colima,2019,Levels,0.14172339,3rd quartile
+7,Chiapas,2019,Levels,-0.35117722,3rd quartile
+8,Chihuahua,2019,Levels,0.016735077,1st quartile
+9,Mexico City,2019,Levels,0.040839434,4th quartile
+10,Durango,2019,Levels,0.012195587,1st quartile
+11,Guanajuato,2019,Levels,0.076112986,2nd quartile
+12,Guerrero,2019,Levels,0.17985845,3rd quartile
+13,Hidalgo,2019,Levels,0.051448822,2nd quartile
+14,Jalisco,2019,Levels,0.099159718,2nd quartile
+15,Mexico,2019,Levels,0.049659014,2nd quartile
+16,Michoacan,2019,Levels,0.12860465,3rd quartile
+17,Morelos,2019,Levels,0.095631599,4th quartile
+18,Nayarit,2019,Levels,0.12509322,3rd quartile
+19,Nuevo Leon,2019,Levels,0.063651562,3rd quartile
+20,Oaxaca,2019,Levels,0.084926367,1st quartile
+21,Puebla,2019,Levels,0.097984314,4th quartile
+22,Queretaro,2019,Levels,0.10280657,4th quartile
+23,Quintana Roo,2019,Levels,0.029617786,1st quartile
+24,San Luis Potosi,2019,Levels,-0.014884472,2nd quartile
+25,Sinaloa,2019,Levels,0.051578999,2nd quartile
+26,Sonora,2019,Levels,0.019532681,4th quartile
+27,Tabasco,2019,Levels,-0.062915802,1st quartile
+28,Tamaulipas,2019,Levels,0.045049191,2nd quartile
+29,Tlaxcala,2019,Levels,0.083608627,2nd quartile
+30,Veracruz,2019,Levels,0.015602827,1st quartile
+31,Yucatan,2019,Levels,0.1157465,3rd quartile
+32,Zacatecas,2019,Levels,0.009307146,4th quartile
+1,Aguascalientes,2020,Levels,-0.052058697,4th quartile
+2,Baja California,2020,Levels,0.053667068,2nd quartile
+3,Baja California Sur,2020,Levels,0.047599077,2nd quartile
+4,Campeche,2020,Levels,-0.052675724,1st quartile
+5,Coahuila,2020,Levels,0.019518614,2nd quartile
+6,Colima,2020,Levels,0.093180418,2nd quartile
+7,Chiapas,2020,Levels,-0.29627991,3rd quartile
+8,Chihuahua,2020,Levels,0.028580427,4th quartile
+9,Mexico City,2020,Levels,0.032128811,3rd quartile
+10,Durango,2020,Levels,-0.051765203,1st quartile
+11,Guanajuato,2020,Levels,0.072047949,3rd quartile
+12,Guerrero,2020,Levels,0.098152161,2nd quartile
+13,Hidalgo,2020,Levels,0.096214771,4th quartile
+14,Jalisco,2020,Levels,0.096717358,4th quartile
+15,Mexico,2020,Levels,0.046853304,3rd quartile
+16,Michoacan,2020,Levels,0.1033597,3rd quartile
+17,Morelos,2020,Levels,0.059823751,2nd quartile
+18,Nayarit,2020,Levels,0.051699638,1st quartile
+19,Nuevo Leon,2020,Levels,0.06513238,4th quartile
+20,Oaxaca,2020,Levels,0.026054859,1st quartile
+21,Puebla,2020,Levels,0.059403896,2nd quartile
+22,Queretaro,2020,Levels,0.09791255,3rd quartile
+23,Quintana Roo,2020,Levels,0.025099754,3rd quartile
+24,San Luis Potosi,2020,Levels,0.020581961,1st quartile
+25,Sinaloa,2020,Levels,0.048257113,3rd quartile
+26,Sonora,2020,Levels,0.003496409,1st quartile
+27,Tabasco,2020,Levels,-0.11525416,4th quartile
+28,Tamaulipas,2020,Levels,0.0448668,4th quartile
+29,Tlaxcala,2020,Levels,0.055289507,2nd quartile
+30,Veracruz,2020,Levels,-0.097069025,1st quartile
+31,Yucatan,2020,Levels,0.11379671,4th quartile
+32,Zacatecas,2020,Levels,-0.054526567,1st quartile
+1,Aguascalientes,2021,Levels,-0.027432919,1st quartile
+2,Baja California,2021,Levels,0.065189362,3rd quartile
+3,Baja California Sur,2021,Levels,0.050311089,3rd quartile
+4,Campeche,2021,Levels,-0.094013214,4th quartile
+5,Coahuila,2021,Levels,0.030151129,4th quartile
+6,Colima,2021,Levels,0.078369856,3rd quartile
+7,Chiapas,2021,Levels,-0.36367774,3rd quartile
+8,Chihuahua,2021,Levels,0.035741568,4th quartile
+9,Mexico City,2021,Levels,0.052813768,4th quartile
+10,Durango,2021,Levels,-0.007357121,1st quartile
+11,Guanajuato,2021,Levels,0.079908609,3rd quartile
+12,Guerrero,2021,Levels,0.035763025,1st quartile
+13,Hidalgo,2021,Levels,0.055176973,1st quartile
+14,Jalisco,2021,Levels,0.062162638,2nd quartile
+15,Mexico,2021,Levels,0.025152922,1st quartile
+16,Michoacan,2021,Levels,0.060888529,2nd quartile
+17,Morelos,2021,Levels,0.11462426,4th quartile
+18,Nayarit,2021,Levels,0.032486439,2nd quartile
+19,Nuevo Leon,2021,Levels,0.054633856,2nd quartile
+20,Oaxaca,2021,Levels,0.052321911,4th quartile
+21,Puebla,2021,Levels,0.074053526,3rd quartile
+22,Queretaro,2021,Levels,0.11271024,3rd quartile
+23,Quintana Roo,2021,Levels,0.036412954,4th quartile
+24,San Luis Potosi,2021,Levels,0.016216278,2nd quartile
+25,Sinaloa,2021,Levels,0.038798809,2nd quartile
+26,Sonora,2021,Levels,0.022586584,4th quartile
+27,Tabasco,2021,Levels,-0.037781715,1st quartile
+28,Tamaulipas,2021,Levels,0.01789546,1st quartile
+29,Tlaxcala,2021,Levels,0.060392857,3rd quartile
+30,Veracruz,2021,Levels,0.014791727,1st quartile
+31,Yucatan,2021,Levels,0.092795134,2nd quartile
+32,Zacatecas,2021,Levels,-0.037237167,2nd quartile
+1,Aguascalientes,2022,Levels,0.00351429,1st quartile
+2,Baja California,2022,Levels,0.066283703,2nd quartile
+3,Baja California Sur,2022,Levels,0.10243249,4th quartile
+4,Campeche,2022,Levels,-0.041289568,1st quartile
+5,Coahuila,2022,Levels,0.033794403,2nd quartile
+6,Colima,2022,Levels,0.13430119,4th quartile
+7,Chiapas,2022,Levels,-0.27718806,2nd quartile
+8,Chihuahua,2022,Levels,0.035788536,2nd quartile
+9,Mexico City,2022,Levels,-0.010358572,1st quartile
+10,Durango,2022,Levels,-0.008783341,3rd quartile
+11,Guanajuato,2022,Levels,0.10600734,3rd quartile
+12,Guerrero,2022,Levels,0.18403363,4th quartile
+13,Hidalgo,2022,Levels,0.10097504,4th quartile
+14,Jalisco,2022,Levels,0.077373505,3rd quartile
+15,Mexico,2022,Levels,0.068591595,4th quartile
+16,Michoacan,2022,Levels,0.1030333,4th quartile
+17,Morelos,2022,Levels,0.10870433,2nd quartile
+18,Nayarit,2022,Levels,0.053935766,4th quartile
+19,Nuevo Leon,2022,Levels,0.078244686,3rd quartile
+20,Oaxaca,2022,Levels,0.089636803,4th quartile
+21,Puebla,2022,Levels,0.016284943,1st quartile
+22,Queretaro,2022,Levels,0.12976694,3rd quartile
+23,Quintana Roo,2022,Levels,0.026959419,2nd quartile
+24,San Luis Potosi,2022,Levels,-0.020849466,1st quartile
+25,Sinaloa,2022,Levels,0.055923939,3rd quartile
+26,Sonora,2022,Levels,0.008915901,1st quartile
+27,Tabasco,2022,Levels,-0.04267168,2nd quartile
+28,Tamaulipas,2022,Levels,0.010338545,2nd quartile
+29,Tlaxcala,2022,Levels,0.092004299,3rd quartile
+30,Veracruz,2022,Levels,-0.01695466,1st quartile
+31,Yucatan,2022,Levels,0.12248945,3rd quartile
+32,Zacatecas,2022,Levels,0.057438135,1st quartile
+1,Aguascalientes,2016,Change,-0.87735051,1st quartile
+2,Baja California,2016,Change,-0.1603331,3rd quartile
+3,Baja California Sur,2016,Change,0.088286683,4th quartile
+4,Campeche,2016,Change,-0.20553167,1st quartile
+5,Coahuila,2016,Change,3.3973436,2nd quartile
+6,Colima,2016,Change,-0.14828527,4th quartile
+7,Chiapas,2016,Change,-0.14888613,1st quartile
+8,Chihuahua,2016,Change,0.024084209,3rd quartile
+9,Mexico City,2016,Change,-0.30683899,1st quartile
+10,Durango,2016,Change,1.4920218,3rd quartile
+11,Guanajuato,2016,Change,0.032348424,3rd quartile
+12,Guerrero,2016,Change,-0.21898113,4th quartile
+13,Hidalgo,2016,Change,3.0734315,1st quartile
+14,Jalisco,2016,Change,0.003442901,4th quartile
+15,Mexico,2016,Change,-0.45428982,2nd quartile
+16,Michoacan,2016,Change,-0.004502956,4th quartile
+17,Morelos,2016,Change,-0.10569258,4th quartile
+18,Nayarit,2016,Change,0.40991688,3rd quartile
+19,Nuevo Leon,2016,Change,-0.034426633,3rd quartile
+20,Oaxaca,2016,Change,4.1169333,2nd quartile
+21,Puebla,2016,Change,-0.090429991,2nd quartile
+22,Queretaro,2016,Change,0.021367099,4th quartile
+23,Quintana Roo,2016,Change,5.1202316,2nd quartile
+24,San Luis Potosi,2016,Change,-0.61994117,1st quartile
+25,Sinaloa,2016,Change,0.54432148,2nd quartile
+26,Sonora,2016,Change,0.04128148,2nd quartile
+27,Tabasco,2016,Change,0.043427456,1st quartile
+28,Tamaulipas,2016,Change,0.34835762,3rd quartile
+29,Tlaxcala,2016,Change,0.11005607,3rd quartile
+30,Veracruz,2016,Change,0.75477576,2nd quartile
+31,Yucatan,2016,Change,0.18429136,4th quartile
+32,Zacatecas,2016,Change,1.2620461,1st quartile
+1,Aguascalientes,2017,Change,-4.3821154,2nd quartile
+2,Baja California,2017,Change,0.1944205,3rd quartile
+3,Baja California Sur,2017,Change,0.037035808,4th quartile
+4,Campeche,2017,Change,0.59188199,1st quartile
+5,Coahuila,2017,Change,-0.3734194,2nd quartile
+6,Colima,2017,Change,0.25792742,4th quartile
+7,Chiapas,2017,Change,0.10968877,1st quartile
+8,Chihuahua,2017,Change,0.043952391,3rd quartile
+9,Mexico City,2017,Change,-0.44020417,1st quartile
+10,Durango,2017,Change,-0.91847992,1st quartile
+11,Guanajuato,2017,Change,-0.1272195,3rd quartile
+12,Guerrero,2017,Change,-0.71297097,2nd quartile
+13,Hidalgo,2017,Change,-3.3138263,2nd quartile
+14,Jalisco,2017,Change,-0.13247812,4th quartile
+15,Mexico,2017,Change,-0.23740341,2nd quartile
+16,Michoacan,2017,Change,0.23573494,4th quartile
+17,Morelos,2017,Change,0.00958576,4th quartile
+18,Nayarit,2017,Change,-0.044012673,4th quartile
+19,Nuevo Leon,2017,Change,0.18379849,3rd quartile
+20,Oaxaca,2017,Change,0.69045371,2nd quartile
+21,Puebla,2017,Change,0.14906929,3rd quartile
+22,Queretaro,2017,Change,-0.25721815,3rd quartile
+23,Quintana Roo,2017,Change,1.1917078,2nd quartile
+24,San Luis Potosi,2017,Change,-0.036205024,1st quartile
+25,Sinaloa,2017,Change,-0.08459644,3rd quartile
+26,Sonora,2017,Change,-0.48943478,2nd quartile
+27,Tabasco,2017,Change,0.56132108,1st quartile
+28,Tamaulipas,2017,Change,-0.16672751,3rd quartile
+29,Tlaxcala,2017,Change,-0.092590444,4th quartile
+30,Veracruz,2017,Change,-1.1693027,1st quartile
+31,Yucatan,2017,Change,-0.098197676,4th quartile
+32,Zacatecas,2017,Change,-0.8809374,1st quartile
+1,Aguascalientes,2018,Change,-1.8681276,1st quartile
+2,Baja California,2018,Change,-0.11223529,3rd quartile
+3,Baja California Sur,2018,Change,0.061903998,4th quartile
+4,Campeche,2018,Change,0.022198804,1st quartile
+5,Coahuila,2018,Change,0.86645871,2nd quartile
+6,Colima,2018,Change,0.033595119,4th quartile
+7,Chiapas,2018,Change,0.11683851,1st quartile
+8,Chihuahua,2018,Change,-0.4250285,2nd quartile
+9,Mexico City,2018,Change,1.0720516,2nd quartile
+10,Durango,2018,Change,4.0067892,2nd quartile
+11,Guanajuato,2018,Change,0.73815757,3rd quartile
+12,Guerrero,2018,Change,3.182986,4th quartile
+13,Hidalgo,2018,Change,0.2531752,2nd quartile
+14,Jalisco,2018,Change,-0.04167993,4th quartile
+15,Mexico,2018,Change,0.41975269,2nd quartile
+16,Michoacan,2018,Change,0.025780439,4th quartile
+17,Morelos,2018,Change,-0.30947721,3rd quartile
+18,Nayarit,2018,Change,0.45387518,4th quartile
+19,Nuevo Leon,2018,Change,-0.17300934,3rd quartile
+20,Oaxaca,2018,Change,1.49354,4th quartile
+21,Puebla,2018,Change,0.2273028,3rd quartile
+22,Queretaro,2018,Change,0.21755564,3rd quartile
+23,Quintana Roo,2018,Change,0.085665911,2nd quartile
+24,San Luis Potosi,2018,Change,-0.091872938,1st quartile
+25,Sinaloa,2018,Change,0.17242666,3rd quartile
+26,Sonora,2018,Change,-0.49379161,1st quartile
+27,Tabasco,2018,Change,0.46907637,1st quartile
+28,Tamaulipas,2018,Change,-0.028764779,2nd quartile
+29,Tlaxcala,2018,Change,0.14909984,3rd quartile
+30,Veracruz,2018,Change,6.6981239,1st quartile
+31,Yucatan,2018,Change,-0.017697345,4th quartile
+32,Zacatecas,2018,Change,-2.1635609,1st quartile
+1,Aguascalientes,2019,Change,0.10454515,1st quartile
+2,Baja California,2019,Change,-0.047068886,3rd quartile
+3,Baja California Sur,2019,Change,-0.44593203,3rd quartile
+4,Campeche,2019,Change,-1.076794,1st quartile
+5,Coahuila,2019,Change,0.080804855,2nd quartile
+6,Colima,2019,Change,-0.016197797,4th quartile
+7,Chiapas,2019,Change,-0.066857487,1st quartile
+8,Chihuahua,2019,Change,-0.59075063,2nd quartile
+9,Mexico City,2019,Change,1.0426555,2nd quartile
+10,Durango,2019,Change,-0.54663736,1st quartile
+11,Guanajuato,2019,Change,-0.16520622,3rd quartile
+12,Guerrero,2019,Change,-0.063546151,4th quartile
+13,Hidalgo,2019,Change,-0.099613629,2nd quartile
+14,Jalisco,2019,Change,-0.10879068,4th quartile
+15,Mexico,2019,Change,-0.19082454,2nd quartile
+16,Michoacan,2019,Change,0.012524051,4th quartile
+17,Morelos,2019,Change,0.32387617,3rd quartile
+18,Nayarit,2019,Change,-0.061104886,4th quartile
+19,Nuevo Leon,2019,Change,0.019288184,3rd quartile
+20,Oaxaca,2019,Change,-0.28184077,3rd quartile
+21,Puebla,2019,Change,0.2379019,4th quartile
+22,Queretaro,2019,Change,0.10902156,4th quartile
+23,Quintana Roo,2019,Change,-0.3669045,2nd quartile
+24,San Luis Potosi,2019,Change,-0.26967081,1st quartile
+25,Sinaloa,2019,Change,-0.19021542,3rd quartile
+26,Sonora,2019,Change,0.3661164,2nd quartile
+27,Tabasco,2019,Change,-0.37152615,1st quartile
+28,Tamaulipas,2019,Change,-0.2107088,2nd quartile
+29,Tlaxcala,2019,Change,-0.15187338,3rd quartile
+30,Veracruz,2019,Change,-1.3683505,1st quartile
+31,Yucatan,2019,Change,0.04596889,4th quartile
+32,Zacatecas,2019,Change,0.2681762,1st quartile
+1,Aguascalientes,2020,Change,3.3850665,1st quartile
+2,Baja California,2020,Change,-0.22885656,3rd quartile
+3,Baja California Sur,2020,Change,-0.22403775,3rd quartile
+4,Campeche,2020,Change,-9.82728,1st quartile
+5,Coahuila,2020,Change,-0.56039137,2nd quartile
+6,Colima,2020,Change,-0.34251913,4th quartile
+7,Chiapas,2020,Change,-0.15632366,1st quartile
+8,Chihuahua,2020,Change,0.70781571,2nd quartile
+9,Mexico City,2020,Change,-0.21328951,2nd quartile
+10,Durango,2020,Change,-5.2445846,1st quartile
+11,Guanajuato,2020,Change,-0.053407926,4th quartile
+12,Guerrero,2020,Change,-0.45428106,4th quartile
+13,Hidalgo,2020,Change,0.8701064,4th quartile
+14,Jalisco,2020,Change,-0.024630565,4th quartile
+15,Mexico,2020,Change,-0.056499507,2nd quartile
+16,Michoacan,2020,Change,-0.1962989,4th quartile
+17,Morelos,2020,Change,-0.37443531,3rd quartile
+18,Nayarit,2020,Change,-0.58671111,3rd quartile
+19,Nuevo Leon,2020,Change,0.023264438,3rd quartile
+20,Oaxaca,2020,Change,-0.69320649,2nd quartile
+21,Puebla,2020,Change,-0.39374074,3rd quartile
+22,Queretaro,2020,Change,-0.04760414,4th quartile
+23,Quintana Roo,2020,Change,-0.15254456,2nd quartile
+24,San Luis Potosi,2020,Change,-2.3827808,2nd quartile
+25,Sinaloa,2020,Change,-0.064403847,3rd quartile
+26,Sonora,2020,Change,-0.820997,1st quartile
+27,Tabasco,2020,Change,0.83187932,1st quartile
+28,Tamaulipas,2020,Change,-0.00404869,2nd quartile
+29,Tlaxcala,2020,Change,-0.33871052,3rd quartile
+30,Veracruz,2020,Change,-7.2212458,1st quartile
+31,Yucatan,2020,Change,-0.016845323,4th quartile
+32,Zacatecas,2020,Change,-6.8585701,1st quartile
+1,Aguascalientes,2021,Change,-0.4730387,1st quartile
+2,Baja California,2021,Change,0.21469951,4th quartile
+3,Baja California Sur,2021,Change,0.056976132,3rd quartile
+4,Campeche,2021,Change,0.7847541,1st quartile
+5,Coahuila,2021,Change,0.54473722,2nd quartile
+6,Colima,2021,Change,-0.15894501,4th quartile
+7,Chiapas,2021,Change,0.22748026,1st quartile
+8,Chihuahua,2021,Change,0.250561,2nd quartile
+9,Mexico City,2021,Change,0.64381337,3rd quartile
+10,Durango,2021,Change,-0.85787517,1st quartile
+11,Guanajuato,2021,Change,0.10910318,4th quartile
+12,Guerrero,2021,Change,-0.63563693,2nd quartile
+13,Hidalgo,2021,Change,-0.42652285,3rd quartile
+14,Jalisco,2021,Change,-0.35727528,4th quartile
+15,Mexico,2021,Change,-0.46315587,2nd quartile
+16,Michoacan,2021,Change,-0.41090649,3rd quartile
+17,Morelos,2021,Change,0.91603267,4th quartile
+18,Nayarit,2021,Change,-0.37163121,2nd quartile
+19,Nuevo Leon,2021,Change,-0.16118747,3rd quartile
+20,Oaxaca,2021,Change,1.008144,3rd quartile
+21,Puebla,2021,Change,0.24661058,4th quartile
+22,Queretaro,2021,Change,0.15113167,4th quartile
+23,Quintana Roo,2021,Change,0.45072952,2nd quartile
+24,San Luis Potosi,2021,Change,-0.21211208,1st quartile
+25,Sinaloa,2021,Change,-0.19599812,3rd quartile
+26,Sonora,2021,Change,5.4599385,2nd quartile
+27,Tabasco,2021,Change,-0.67218781,1st quartile
+28,Tamaulipas,2021,Change,-0.60114247,2nd quartile
+29,Tlaxcala,2021,Change,0.092302315,3rd quartile
+30,Veracruz,2021,Change,-1.1523836,1st quartile
+31,Yucatan,2021,Change,-0.18455346,4th quartile
+32,Zacatecas,2021,Change,-0.31708214,1st quartile
+1,Aguascalientes,2022,Change,-1.1281048,1st quartile
+2,Baja California,2022,Change,0.016787114,3rd quartile
+3,Baja California Sur,2022,Change,1.0359824,4th quartile
+4,Campeche,2022,Change,-0.56081104,1st quartile
+5,Coahuila,2022,Change,0.12083376,2nd quartile
+6,Colima,2022,Change,0.7136842,4th quartile
+7,Chiapas,2022,Change,-0.23781955,1st quartile
+8,Chihuahua,2022,Change,0.001314113,2nd quartile
+9,Mexico City,2022,Change,-1.196134,1st quartile
+10,Durango,2022,Change,0.19385573,1st quartile
+11,Guanajuato,2022,Change,0.32660723,4th quartile
+12,Guerrero,2022,Change,4.1459188,4th quartile
+13,Hidalgo,2022,Change,0.83002132,3rd quartile
+14,Jalisco,2022,Change,0.24469468,3rd quartile
+15,Mexico,2022,Change,1.7269832,3rd quartile
+16,Michoacan,2022,Change,0.69216269,4th quartile
+17,Morelos,2022,Change,-0.051646426,4th quartile
+18,Nayarit,2022,Change,0.66025484,2nd quartile
+19,Nuevo Leon,2022,Change,0.43216482,3rd quartile
+20,Oaxaca,2022,Change,0.71317905,3rd quartile
+21,Puebla,2022,Change,-0.7800923,2nd quartile
+22,Queretaro,2022,Change,0.15133233,4th quartile
+23,Quintana Roo,2022,Change,-0.2596201,2nd quartile
+24,San Luis Potosi,2022,Change,-2.2857122,1st quartile
+25,Sinaloa,2022,Change,0.44138288,2nd quartile
+26,Sonora,2022,Change,-0.6052568,2nd quartile
+27,Tabasco,2022,Change,0.12942676,1st quartile
+28,Tamaulipas,2022,Change,-0.42228115,2nd quartile
+29,Tlaxcala,2022,Change,0.52343017,3rd quartile
+30,Veracruz,2022,Change,-2.1462259,1st quartile
+31,Yucatan,2022,Change,0.31999865,4th quartile
+32,Zacatecas,2022,Change,-2.5424948,3rd quartile

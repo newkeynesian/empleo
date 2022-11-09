@@ -1,0 +1,161 @@
+sex,year,educ,salmed
+Male,2015,None,14175.43356
+Male,2016,None,14612.82225
+Male,2017,None,14650.48138
+Male,2018,None,14890.10103
+Male,2019,None,15089.91913
+Male,2020,None,15107.49629
+Male,2021,None,15774.32545
+Male,2022,None,16249.24424
+Female,2015,None,9619.085875
+Female,2016,None,9693.164193
+Female,2017,None,9676.957596
+Female,2018,None,9664.480291
+Female,2019,None,9903.091862
+Female,2020,None,10179.88205
+Female,2021,None,10426.05631
+Female,2022,None,10627.65639
+Male,2015,Preschool,14555.54542
+Male,2016,Preschool,13800.97544
+Male,2017,Preschool,15622.69937
+Male,2018,Preschool,17473.08524
+Male,2019,Preschool,18907.56459
+Male,2020,Preschool,18055.14215
+Male,2021,Preschool,17878.56929
+Male,2022,Preschool,20888.73103
+Female,2015,Preschool,10731.11751
+Female,2016,Preschool,10965.30509
+Female,2017,Preschool,9814.705999
+Female,2018,Preschool,11439.34276
+Female,2019,Preschool,11312.15531
+Female,2020,Preschool,13808.18146
+Female,2021,Preschool,13451.43837
+Female,2022,Preschool,13970.79827
+Male,2015,Primary,18551.41071
+Male,2016,Primary,18989.63932
+Male,2017,Primary,19016.84709
+Male,2018,Primary,19132.11164
+Male,2019,Primary,19483.69179
+Male,2020,Primary,19592.3759
+Male,2021,Primary,19575.91518
+Male,2022,Primary,20098.73751
+Female,2015,Primary,12202.99689
+Female,2016,Primary,12333.4368
+Female,2017,Primary,12491.49498
+Female,2018,Primary,12476.90133
+Female,2019,Primary,12823.95575
+Female,2020,Primary,13080.69059
+Female,2021,Primary,13248.57694
+Female,2022,Primary,13264.40579
+Male,2015,Middle school,21443.13757
+Male,2016,Middle school,21849.44967
+Male,2017,Middle school,21727.18784
+Male,2018,Middle school,21736.74072
+Male,2019,Middle school,22265.39839
+Male,2020,Middle school,22394.55507
+Male,2021,Middle school,22485.62365
+Male,2022,Middle school,22987.85736
+Female,2015,Middle school,14334.16459
+Female,2016,Middle school,14659.70007
+Female,2017,Middle school,14665.26915
+Female,2018,Middle school,14717.03713
+Female,2019,Middle school,15133.87188
+Female,2020,Middle school,15304.79324
+Female,2021,Middle school,15506.64399
+Female,2022,Middle school,15769.55563
+Male,2015,High school,24640.92959
+Male,2016,High school,25046.12359
+Male,2017,High school,24432.06563
+Male,2018,High school,24610.61355
+Male,2019,High school,24856.47608
+Male,2020,High school,24946.47804
+Male,2021,High school,24876.07763
+Male,2022,High school,25438.42371
+Female,2015,High school,18123.9083
+Female,2016,High school,18394.73084
+Female,2017,High school,18126.82819
+Female,2018,High school,17990.14902
+Female,2019,High school,18320.82274
+Female,2020,High school,18495.35782
+Female,2021,High school,18379.44816
+Female,2022,High school,18778.26299
+Male,2015,Normal School,35732.96604
+Male,2016,Normal School,35603.51364
+Male,2017,Normal School,33321.45964
+Male,2018,Normal School,33768.2944
+Male,2019,Normal School,29931.14718
+Male,2020,Normal School,30217.17402
+Male,2021,Normal School,33715.49681
+Male,2022,Normal School,28735.51793
+Female,2015,Normal School,32559.25957
+Female,2016,Normal School,32836.87941
+Female,2017,Normal School,30254.27146
+Female,2018,Normal School,28868.75227
+Female,2019,Normal School,28463.12531
+Female,2020,Normal School,29594.26194
+Female,2021,Normal School,26624.85868
+Female,2022,Normal School,26113.40691
+Male,2015,Technical career,29334.1141
+Male,2016,Technical career,29849.56447
+Male,2017,Technical career,29004.94431
+Male,2018,Technical career,29456.22211
+Male,2019,Technical career,29729.34165
+Male,2020,Technical career,30552.27096
+Male,2021,Technical career,30945.09806
+Male,2022,Technical career,31220.37708
+Female,2015,Technical career,22045.88391
+Female,2016,Technical career,21844.08955
+Female,2017,Technical career,21437.27317
+Female,2018,Technical career,21481.41489
+Female,2019,Technical career,21725.86628
+Female,2020,Technical career,21864.74134
+Female,2021,Technical career,21875.36872
+Female,2022,Technical career,21867.99429
+Male,2015,Bachelor,40835.48795
+Male,2016,Bachelor,40016.07402
+Male,2017,Bachelor,38435.0328
+Male,2018,Bachelor,37999.3499
+Male,2019,Bachelor,38249.6132
+Male,2020,Bachelor,37575.0252
+Male,2021,Bachelor,37297.6406
+Male,2022,Bachelor,37057.08452
+Female,2015,Bachelor,32397.39359
+Female,2016,Bachelor,32230.08729
+Female,2017,Bachelor,31077.7609
+Female,2018,Bachelor,30641.51567
+Female,2019,Bachelor,30512.96825
+Female,2020,Bachelor,31034.64442
+Female,2021,Bachelor,30140.4419
+Female,2022,Bachelor,30087.8531
+Male,2015,Master's degree,66069.74555
+Male,2016,Master's degree,65915.94674
+Male,2017,Master's degree,64896.58223
+Male,2018,Master's degree,64071.55526
+Male,2019,Master's degree,61768.05807
+Male,2020,Master's degree,61829.5276
+Male,2021,Master's degree,59802.7149
+Male,2022,Master's degree,58628.22713
+Female,2015,Master's degree,50394.74541
+Female,2016,Master's degree,49413.91212
+Female,2017,Master's degree,48746.07877
+Female,2018,Master's degree,46768.15997
+Female,2019,Master's degree,46063.86942
+Female,2020,Master's degree,46189.276
+Female,2021,Master's degree,45027.66414
+Female,2022,Master's degree,43717.38477
+Male,2015,PhD,76563.19655
+Male,2016,PhD,77735.19051
+Male,2017,PhD,86283.3109
+Male,2018,PhD,73517.73727
+Male,2019,PhD,74704.40962
+Male,2020,PhD,73747.95712
+Male,2021,PhD,67681.47084
+Male,2022,PhD,67986.21699
+Female,2015,PhD,67974.05729
+Female,2016,PhD,61772.61319
+Female,2017,PhD,62481.14159
+Female,2018,PhD,62751.26518
+Female,2019,PhD,60898.34088
+Female,2020,PhD,60639.50392
+Female,2021,PhD,56144.33946
+Female,2022,PhD,58098.915

@@ -1,0 +1,14 @@
+name: empleo
+title: empleo
+username:
+account: newkeynesian
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7428855
+bundleId: 6494423
+url: https://newkeynesian.shinyapps.io/empleo/
+when: 1668009935.83745
+lastSyncTime: 1668009935.83745
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: examples.R

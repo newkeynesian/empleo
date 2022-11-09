@@ -1,0 +1,241 @@
+var,categoria,year,hrs
+Income,Up to minimum wage,2015,22.53517921
+Income, More than 1 to 2 minimum wages,2015,39.99688549
+Income, More than 2 to 3 minimum wages,2015,42.52598322
+Income,More than 3 to 5 minimum wages,2015,38.73617636
+Income, More than 5 minimum wages,2015,38.50162142
+Income,Up to minimum wage,2016,23.79624263
+Income, More than 1 to 2 minimum wages,2016,40.71360987
+Income, More than 2 to 3 minimum wages,2016,42.8121525
+Income,More than 3 to 5 minimum wages,2016,38.56422159
+Income, More than 5 minimum wages,2016,38.59666038
+Income,Up to minimum wage,2017,24.06215082
+Income, More than 1 to 2 minimum wages,2017,40.547357
+Income, More than 2 to 3 minimum wages,2017,42.16525932
+Income,More than 3 to 5 minimum wages,2017,38.63668808
+Income, More than 5 minimum wages,2017,39.00641605
+Income,Up to minimum wage,2018,24.86642665
+Income, More than 1 to 2 minimum wages,2018,41.30276251
+Income, More than 2 to 3 minimum wages,2018,42.2696618
+Income,More than 3 to 5 minimum wages,2018,38.56164384
+Income, More than 5 minimum wages,2018,38.92973949
+Income,Up to minimum wage,2019,27.06908994
+Income, More than 1 to 2 minimum wages,2019,41.44027059
+Income, More than 2 to 3 minimum wages,2019,40.92634398
+Income,More than 3 to 5 minimum wages,2019,38.41716659
+Income, More than 5 minimum wages,2019,39.00542792
+Income,Up to minimum wage,2020,27.75564852
+Income, More than 1 to 2 minimum wages,2020,40.61388402
+Income, More than 2 to 3 minimum wages,2020,38.06389295
+Income,More than 3 to 5 minimum wages,2020,37.28774329
+Income, More than 5 minimum wages,2020,38.67734887
+Income,Up to minimum wage,2021,29.24851518
+Income, More than 1 to 2 minimum wages,2021,41.43288055
+Income, More than 2 to 3 minimum wages,2021,38.76116479
+Income,More than 3 to 5 minimum wages,2021,38.77551573
+Income, More than 5 minimum wages,2021,41.22439024
+Income,Up to minimum wage,2022,32.67472547
+Income, More than 1 to 2 minimum wages,2022,41.5496629
+Income, More than 2 to 3 minimum wages,2022,38.73219109
+Income,More than 3 to 5 minimum wages,2022,38.96145038
+Income, More than 5 minimum wages,2022,40.40160395
+Schooling,Non,2015,7.930971708
+Schooling,Preschool,2015,11.98407643
+Schooling,Primary,2015,10.82176428
+Schooling,Middle school,2015,13.85606327
+Schooling,High school,2015,17.11059148
+Schooling,Normal school,2015,8.402862986
+Schooling,Technical career,2015,18.83695446
+Schooling,Bachelor,2015,22.01847271
+Schooling,Master's degree,2015,26.94625457
+Schooling,PhD,2015,27.74193548
+Schooling,Non,2016,8.100506861
+Schooling,Preschool,2016,10.06734007
+Schooling,Primary,2016,10.90040995
+Schooling,Middle school,2016,13.98386346
+Schooling,High school,2016,17.40184485
+Schooling,Normal school,2016,8.100464876
+Schooling,Technical career,2016,18.80304813
+Schooling,Bachelor,2016,22.19638725
+Schooling,Master's degree,2016,26.80486739
+Schooling,PhD,2016,27.14052698
+Schooling,Non,2017,7.706855187
+Schooling,Preschool,2017,7.796875
+Schooling,Primary,2017,10.63261354
+Schooling,Middle school,2017,13.99577628
+Schooling,High school,2017,17.39340524
+Schooling,Normal school,2017,6.610064586
+Schooling,Technical career,2017,18.4919046
+Schooling,Bachelor,2017,22.09108943
+Schooling,Master's degree,2017,26.32212926
+Schooling,PhD,2017,27.68414634
+Schooling,Non,2018,7.644694861
+Schooling,Preschool,2018,10.14166667
+Schooling,Primary,2018,10.78912766
+Schooling,Middle school,2018,14.05998723
+Schooling,High school,2018,17.47491105
+Schooling,Normal school,2018,6.554513796
+Schooling,Technical career,2018,18.42925752
+Schooling,Bachelor,2018,22.46591057
+Schooling,Master's degree,2018,25.71374642
+Schooling,PhD,2018,25.675
+Schooling,Non,2019,8.092274101
+Schooling,Preschool,2019,8.985507246
+Schooling,Primary,2019,10.94475034
+Schooling,Middle school,2019,14.54078568
+Schooling,High school,2019,17.73330509
+Schooling,Normal school,2019,5.490516333
+Schooling,Technical career,2019,18.04726492
+Schooling,Bachelor,2019,22.34775048
+Schooling,Master's degree,2019,25.85204692
+Schooling,PhD,2019,25.41015228
+Schooling,Non,2020,7.011294068
+Schooling,Preschool,2020,7.046391753
+Schooling,Primary,2020,9.816846001
+Schooling,Middle school,2020,13.49367502
+Schooling,High school,2020,16.36114147
+Schooling,Normal school,2020,4.782995951
+Schooling,Technical career,2020,15.70365395
+Schooling,Bachelor,2020,20.72966813
+Schooling,Master's degree,2020,25.07121613
+Schooling,PhD,2020,25.63786008
+Schooling,Non,2021,6.857417016
+Schooling,Preschool,2021,5.471177945
+Schooling,Primary,2021,9.929720935
+Schooling,Middle school,2021,14.08813242
+Schooling,High school,2021,17.29268347
+Schooling,Normal school,2021,4.740082889
+Schooling,Technical career,2021,16.18067173
+Schooling,Bachelor,2021,21.91565868
+Schooling,Master's degree,2021,26.79153887
+Schooling,PhD,2021,26.64096186
+Schooling,Non,2022,7.539152481
+Schooling,Preschool,2022,6.365482234
+Schooling,Primary,2022,10.0514047
+Schooling,Middle school,2022,14.40895421
+Schooling,High school,2022,17.87054763
+Schooling,Normal school,2022,4.278808319
+Schooling,Technical career,2022,16.39537514
+Schooling,Bachelor,2022,22.35645078
+Schooling,Master's degree,2022,26.24274719
+Schooling,PhD,2022,26.17956204
+Position,Subordinate and paid workers,2015,38.42239332
+Position, Employers,2015,43.04692582
+Position, Free-lancers,2015,31.1018357
+Position, unpaid workers,2015,30.29763633
+Position,Subordinate and paid workers,2016,38.61905812
+Position, Employers,2016,43.37689002
+Position, Free-lancers,2016,31.10852505
+Position, unpaid workers,2016,30.70254661
+Position,Subordinate and paid workers,2017,38.7158537
+Position, Employers,2017,42.83979442
+Position, Free-lancers,2017,30.90389083
+Position, unpaid workers,2017,30.61370771
+Position,Subordinate and paid workers,2018,38.74815497
+Position, Employers,2018,42.98876724
+Position, Free-lancers,2018,30.99485875
+Position, unpaid workers,2018,30.91626264
+Position,Subordinate and paid workers,2019,38.55437558
+Position, Employers,2019,42.3338616
+Position, Free-lancers,2019,30.76236351
+Position, unpaid workers,2019,30.92529789
+Position,Subordinate and paid workers,2020,37.3394207
+Position, Employers,2020,41.54681496
+Position, Free-lancers,2020,30.36873247
+Position, unpaid workers,2020,30.79549719
+Position,Subordinate and paid workers,2021,38.36725454
+Position, Employers,2021,42.31077822
+Position, Free-lancers,2021,30.79937178
+Position, unpaid workers,2021,31.22596611
+Position,Subordinate and paid workers,2022,38.66070647
+Position, Employers,2022,42.14900046
+Position, Free-lancers,2022,31.39077992
+Position, unpaid workers,2022,31.77297159
+Sector,Agriculture,2015,30.98218718
+Sector, Extractive and electricity industry,2015,40.53389044
+Sector, Manufacturing industry,2015,38.84883266
+Sector,Construction,2015,42.17071019
+Sector,Commerce,2015,39.48268613
+Sector, Restaurants and accommodation services,2015,37.74395967
+Sector,"Transportes, comunicaciones, correo y almacenamiento",2015,42.28324698
+Sector," Bachelors, financial and corporate services",2015,40.20209269
+Sector, Social services,2015,31.49503916
+Sector, various services,2015,31.37932041
+Sector, Government,2015,37.28551219
+Sector,Agriculture,2016,31.21211213
+Sector, Extractive and electricity industry,2016,40.09760956
+Sector, Manufacturing industry,2016,39.23257354
+Sector,Construction,2016,42.70035149
+Sector,Commerce,2016,39.51383918
+Sector, Restaurants and accommodation services,2016,37.81587441
+Sector,"Transportes, comunicaciones, correo y almacenamiento",2016,43.04893468
+Sector," Bachelors, financial and corporate services",2016,40.19395866
+Sector, Social services,2016,31.66176879
+Sector, various services,2016,31.31612984
+Sector, Government,2016,37.73880051
+Sector,Agriculture,2017,31.2704412
+Sector, Extractive and electricity industry,2017,41.79283315
+Sector, Manufacturing industry,2017,39.47670456
+Sector,Construction,2017,42.11038961
+Sector,Commerce,2017,39.60176236
+Sector, Restaurants and accommodation services,2017,37.92240135
+Sector,"Transportes, comunicaciones, correo y almacenamiento",2017,43.06239852
+Sector," Bachelors, financial and corporate services",2017,40.14256066
+Sector, Social services,2017,31.6704936
+Sector, various services,2017,31.32753652
+Sector, Government,2017,37.76575762
+Sector,Agriculture,2018,32.21268948
+Sector, Extractive and electricity industry,2018,40.01388889
+Sector, Manufacturing industry,2018,39.29459826
+Sector,Construction,2018,42.05709557
+Sector,Commerce,2018,39.79694366
+Sector, Restaurants and accommodation services,2018,37.88979777
+Sector,"Transportes, comunicaciones, correo y almacenamiento",2018,43.36642599
+Sector," Bachelors, financial and corporate services",2018,40.09131767
+Sector, Social services,2018,31.8234358
+Sector, various services,2018,31.14263711
+Sector, Government,2018,37.71708952
+Sector,Agriculture,2019,31.94437257
+Sector, Extractive and electricity industry,2019,39.87872106
+Sector, Manufacturing industry,2019,39.313984
+Sector,Construction,2019,42.36505974
+Sector,Commerce,2019,39.40866576
+Sector, Restaurants and accommodation services,2019,37.66142432
+Sector,"Transportes, comunicaciones, correo y almacenamiento",2019,42.78344227
+Sector," Bachelors, financial and corporate services",2019,39.68114594
+Sector, Social services,2019,31.56512948
+Sector, various services,2019,30.65243462
+Sector, Government,2019,38.12293038
+Sector,Agriculture,2020,32.59924207
+Sector, Extractive and electricity industry,2020,38.28296703
+Sector, Manufacturing industry,2020,38.57637966
+Sector,Construction,2020,40.68140521
+Sector,Commerce,2020,39.37383198
+Sector, Restaurants and accommodation services,2020,36.22818052
+Sector,"Transportes, comunicaciones, correo y almacenamiento",2020,41.37701295
+Sector," Bachelors, financial and corporate services",2020,38.67625623
+Sector, Social services,2020,29.93157197
+Sector, various services,2020,29.60022312
+Sector, Government,2020,34.71470346
+Sector,Agriculture,2021,31.99895329
+Sector, Extractive and electricity industry,2021,40.15258621
+Sector, Manufacturing industry,2021,39.17730386
+Sector,Construction,2021,40.73833267
+Sector,Commerce,2021,39.98705117
+Sector, Restaurants and accommodation services,2021,37.28352077
+Sector,"Transportes, comunicaciones, correo y almacenamiento",2021,42.30445753
+Sector," Bachelors, financial and corporate services",2021,39.24190193
+Sector, Social services,2021,31.05894176
+Sector, various services,2021,30.17791842
+Sector, Government,2021,36.94089584
+Sector,Agriculture,2022,32.71493698
+Sector, Extractive and electricity industry,2022,41.75136116
+Sector, Manufacturing industry,2022,39.14733342
+Sector,Construction,2022,42.20330969
+Sector,Commerce,2022,40.49627474
+Sector, Restaurants and accommodation services,2022,38.30568201
+Sector,"Transportes, comunicaciones, correo y almacenamiento",2022,42.64885496
+Sector," Bachelors, financial and corporate services",2022,39.26899268
+Sector, Social services,2022,31.53810602
+Sector, various services,2022,30.4734456
+Sector, Government,2022,37.46645887
