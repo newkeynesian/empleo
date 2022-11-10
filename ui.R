@@ -93,6 +93,16 @@ Concepts necessary to understand the conditions of the female labor market", ali
                 tabBox(width = 12,
                        title = "Select a category",
                        id = "tabset1", height = "300px",
+                                              tabPanel("Brief History", p(style="text-align: justify;","Women’s situation in the Mexican labor market
+During the 1980s and 1990s, women's participation in the labor market increased, largely due to the impacts that the restructuring processes and economic crisis had on households. In that period, the insertion of women into the labor market acted as a compensatory mechanism for households: to face income loss by other members of the household, women had to insert themselves into market activities to preserve the purchasing power of the household. However, this expansion was later followed by a period of stagnation in the percentage of women participating in the Mexican labor market .
+The low female participation in the labor market, as well as the experience of women within the labor field, is the result of the social norms that regulate the autonomy of women. These traditional social norms establish a relationship of subordination between men and women, where women are subordinate to men . This relationship of subordination has persisted over time and prevails in some current work situations for women."),
+                                                       p(style="text-align: justify;","In relation to the labor market, traditional social norms establish that care work must be carried out mostly by women who live in households, this directly affects the decision of women about participating or not in the labor market. The persistence of these norms is mainly because they are transmitted from generation to generation by those men and women who preserve these types of ideologies. These norms shape the experience of women in the labor market . The explicit expression of these norms is harassment and discrimination in the workplace, such as the wage gap that characterizes the Mexican labor market.
+In the Mexican case, since the end of the 20th century, the wage gap between men and women, conditioning by characteristics such as education, age, among other variables, has been reduced to a gap of 9% in the first decade of the 21st century; however, this closing of the labor gap is mainly due to the fact that women who participate in the Mexican labor market are inserted in better paid jobs than the vast majority of those in which men are inserted ."),
+                                                       p(style="text-align: justify;","The crisis caused by the COVID-19 pandemic had a negative impact on the employment and working conditions of women in Latin America and the Caribbean, generating a setback of more than a decade in terms of the progress achieved in labor participation. In 2020, there was a mass exodus of women from the labor force who, having to attend to care demands at homes, did not resume the job search. 56.9% of women in Latin America and 54.3% in the Caribbean are employed in sectors where the pandemic is expected to have a greater negative effect in terms of employment and income."),
+                                                       column(
+                                                         width = 3),box(
+                         HTML('<iframe width="800" height="600" src="https://www.youtube.com/embed/XrV6mtxwsDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
+                       )),
                        tabPanel("Social Security Data", box(
                          title = "Main Concepts", solidHeader = TRUE,
                          helpText("Choose a word to know its definition. Source: IMSS Glossary"),
@@ -120,10 +130,7 @@ Concepts necessary to understand the conditions of the female labor market", ali
                        ),
                        box(title = "Definition", solidHeader = TRUE, textOutput("glosario_mor_var")
                        ),
-                       ),
-                       tabPanel("Brief History", box(
-                                HTML('<iframe width="900" height="600" src="https://www.youtube.com/embed/XrV6mtxwsDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
-                                )), 
+                       )
                        
                 ) 
               ),
@@ -221,7 +228,16 @@ Concepts necessary to understand the conditions of the female labor market", ali
                        box(wellPanel(pickerInput("year_m2_est","Year", choices=c(unique(mex_map2$year)), 
                                                  selected = unique(mex_map2$year)[1], options = list(`actions-box` = FALSE),multiple = F),
                                      pickerInput("var_m","Variable", choices=c(unique(mex_map2$var)), 
-                                                 selected = unique(mex_map2$var)[1], options = list(`actions-box` = FALSE),multiple = F))
+                                                 selected = unique(mex_map2$var)[1], options = list(`actions-box` = FALSE),multiple = F)),
+                           p(style="text-align: justify;","It is important to know the spatial distribution and 
+                             characteristics of the population that is exposed to the virus, as well as the
+                             differentiated effects that COVID-19 may have on them. There are different degrees 
+                             of vulnerability among population groups, in demographic, socioeconomic, and health terms. 
+                             Furthermore, while at the national and regional levels cities are possibly the least vulnerable
+                             places, at the metropolitan scale there may be spatial patterns of internal degrees of vulnerability. 
+                             Women have experienced a loss of jobs and a drop in their labor income as a result of the pandemic,
+                             but this has occurred in a differentiated way between the states due to the socioeconomic
+                             characteristics of each region.")
                         )),
               h2("Some facts about the mexican states"),
               fluidRow(tabBox(
@@ -277,12 +293,20 @@ Concepts necessary to understand the conditions of the female labor market", ali
               distribution. Using the same methodology, we classify each county, 
                 into the yearly distribution taking into account all counties.If you are interested in a particular state, just select it in the Entity box! 
                 The map will display the counties and their classification in the distribution for each year."),
-                            fluidRow(box(plotlyOutput("mp1_plotly")),
+                            fluidRow(box(plotlyOutput("mp1_plotly"),p(style="text-align: justify;","Since the territory plays a preponderant role in the context
+                                                                      of the pandemic in Mexico, analyzing the evolution of the wage gap between the different 
+                                                                      counties of the 32 states gives us a broader picture of the heterogeneous effects of the 
+                                                                      pandemic that considers the socioeconomic characteristics from each county. We can speak 
+                                                                      of different degrees of vulnerability of the women's employment situation by county and 
+                                                                      highlight the role of large cities and urban centers that led to the spread of covid-19 
+                                                                      and influenced the weakening of women's working conditions."),
+                                         p(style="text-align: justify;","Is important to point out that some municipalities do not have representativity in the 
+                                           occupation census, thus, they were left out. ")),
                        box(wellPanel(pickerInput("year_m2","Year", choices=c(unique(mex_map$year)), 
                                                  selected = unique(mex_map$year)[5], options = list(`actions-box` = FALSE),multiple = F),
                                      pickerInput("est_m","Entity", choices=c(unique(mex_map$ent)), 
                                                  selected = unique(mex_map$ent)[2], options = list(`actions-box` = FALSE),multiple = F)),
-                          box(tableOutput("mytable")),  box(p(style="text-align: justify;","The table displays a ranking of which states have the biggest gender gap in each year.
+                          box(column(12, align="center",tableOutput("mytable"))),  box(p(style="text-align: justify;","The table displays a ranking of which states have the biggest gender gap in each year.
                                                               The State which appear the most in different years is Quintana Roo."),
                                                             p(style="text-align: justify;","Let the table be a guide to select the entities that have a greater wage gap, and explore which counties are responsible for that.
                                                             For example, in the year 2020, the worst entity was Aguascalientes, and the worst county in that state was El Llano.")), 
@@ -298,29 +322,87 @@ Concepts necessary to understand the conditions of the female labor market", ali
               h2(""), 
               fluidRow( 
                 box(title = "Change in weekly minutes worked", tags$img(src="hours.png",height = "100%", width = "100%", deleteFile=FALSE))
-                ,  box(p(style="text-align: justify;","In the graph, we can see how the average 
-                         weekly minutes for the women's labor force have moved each year."))
+                ,  box(p(style="text-align: justify;","The labor market comprises a set of interactions between
+                         various economic agents. These simultaneous interactions generate structures that are not always efficient, as an example, 
+                         we have the case of gender differences in the labor market. Through different indicators we can approach the gender
+                         differences in the labor market, among them, the labor participation measured through the change in the weekly minutes 
+                         worked. We must consider that there are observable and unobservable factors that correlate with the existence of gender gaps; 
+                         however, through the observable factors, we can realize the magnitude of the problem in the deficiency of labor structures.
+                         Women have lost significantly more hours of work than men around the world. Overall, the pandemic has reversed progress on gender 
+                         parity in labor participation. This decline in the labor market risks continuing in the long term. Likewise, the reduction 
+                         in the labor participation of women has important consequences in other dimensions of employment and in the distribution of
+                         unpaid work, which affect the way in which women access opportunities in the economic sphere, as well as in other spheres of 
+                         life."),
+                       p(style="text-align: justify;","The In the graph, we can see how the average 
+                         weekly minutes for the women's labor force have moved each year."),
+                       p(style="text-align: justify;","2020 stands out as the change in 
+                         weekly working time measured in minutes drops by around 67 units.We think that the main cause of this dramatic drop in 
+                         worked minutes is a direct result of the lockdown policy implemented during the first year of the pandemic. 
+                         Another indicator is that after the lockdown policy was dropped we observed a rapid growth in the weekly minutes worked. 
+                         Prior to that, we observed a steady increase in the working time of the female."),
+                       p(style="text-align: justify;","Finally, we can notice that the working time, in the following years 
+                         of the pandemic, has recovered to the pre-pandemic level."))
               ),
               fluidRow(box(wellPanel(pickerInput("year_w","Year", choices=c(unique(employ$year)), 
                                                  selected = unique(mex_map$year)[4:5], options = list(`actions-box` = FALSE),multiple = T),
                                      pickerInput("var_w","Variable", choices=c(unique(employ$var)), 
                                                  selected = unique(mex_map$ent)[2], options = list(`actions-box` = FALSE),multiple = F)),
-                           p(style="text-align: justify;","Now we")),
-                       box(title = "Change in weekly minutes worked",plotlyOutput("w1_plotly"))),
+                           p(style="text-align: justify;","The graph shows us the employment level in the woman's labor market. The first variable we 
+                             see is the PEA (that stands for economically active population), and we compare 2019 and 2020 to observe if there
+                             was a significant change in the proportion of people aged 12 years and over who engaged in some type of economic 
+                             activity (employed population), or who actively sought to do so (open unemployed population)."),
+                           p(style="text-align: justify;","It is important to clarify concepts such as Available and non-available, 
+                           the first ones are people aged 12 years or over who did not work, nor had employment and did not actively 
+                           seek one, due to discouragement or they think that they would not be given a job because of their age, studies, etc.; 
+                           but, they would be willing to accept a job if they are offered, however, do not actively seek one. 
+The latter are people with the same delimitation as the first one, but with the distinction that they are not willing to accept a job even when offered."),
+                           p(style="text-align: justify;","Finally, the sum of employed, unemployed, available, and non-available constitute the 
+                             entirety of the women's labor market. "),
+                           ),
+                       box(title = "Women labor market",plotlyOutput("w1_plotly"))),
               h1(""),
-              fluidRow(box(title = "Change in weekly minutes worked",plotlyOutput("h1_plotly")),
-                       box(wellPanel(sliderInput("year_h", "year", min=2015,max= 2022,value = c(2015,2022),sep = ""),
+              fluidRow(box(title = "Worked Hours",plotlyOutput("h1_plotly")),
+                       box(wellPanel(sliderInput("year_h", "Year", min=2015,max= 2022,value = c(2015,2022),sep = ""),
                                      pickerInput("var_h","Variable", choices=c(unique(hours$var)), 
                                                  selected = unique(hours$var)[1], options = list(`actions-box` = FALSE),multiple = F),
                            pickerInput("cat_h","Category", choices=c(unique(hours$categoria)), 
-                                       selected = unique(hours$categoria)[1:2], options = list(`actions-box` = FALSE),multiple = T)),
-                           p(style="text-align: justify;","Now we")))
+                                       selected = unique(hours$categoria)[1:5], options = list(`actions-box` = FALSE),multiple = T)),
+                           p(style="text-align: justify;",'You can observe the evolution of weekly hours worked by women during the time period of 2015 to 2022. 
+The additional feature here is that you can classify the female workforce by income, position, schooling, and sector. For example, if you select income, you will
+                             now have five categories of income, the first being  "up to a minimum wage" and see how many hours per week the people that work for a minimum wage average through the year. ')))
                        ), 
       tabItem(tabName = "eco",
               h1("Econometric Analysis"),
-              fluidRow(box(title = "Change in weekly minutes worked",plotlyOutput("q1_plotly")),
-                       box(wellPanel(pickerInput("year_q","year", choices=c(unique(qreg$year)), 
-                                                 selected = unique(qreg$year)[1], options = list(`actions-box` = FALSE),multiple = F))))
+              p(style="text-align: justify;","We present some simple econometric analyses that will help us understand the effects of the covid pandemic on woman labor conditions. 
+                As presented in prior tabs, the pandemic had a setback on all the progress in woman wages, working hours, and workforce participation. 
+                The first graph shows the values of the wage gap for different points of the income distribution. The second plot, allows us to explore
+                the relationship between the Covid-19 death rate and variables such as Weekly worked hours, Log wage, and the employment rate, by state and year."),
+              h2("Quantile Wage gap"),             
+              fluidRow(box(plotlyOutput("q1_plotly")),
+                       box(wellPanel(pickerInput("year_q","Year", choices=c(unique(qreg$year)), 
+                                                 selected = unique(qreg$year)[1], options = list(`actions-box` = FALSE),multiple = F)),
+                       p(style="text-align: justify;","We estimated yearly quantile regressions of the wage gap, we included some covariates
+                         to get a more precise estimation of it. The results are presented in the left graph, where you can choose 
+                         between different years, and observe how the inequality between men and women over the quantiles has evolved since 2018."), 
+                       column(12, align="center",tableOutput("qregtab")), p(style="text-align: justify;","The latter table shows us the percent change 
+                                                                             of the wage gap between periods, for example, the 2019 column presents that 
+                                                                             for the first quartile there was an increase of the gap of about 6.86 percent 
+                                                                             between 2018 and 2019. During the first year of the pandemic, we can see that 
+                                                                             the gap drastically closed for the top quantiles, but not for the first 75 percent 
+                                                                             of the income distribution. After that, the inequality recovered the pre-pandemic levels.") )),
+              h2("Scatter plot of the Covid Dead Rate and other Variables"),
+              p(style="text-align: justify;","The covid death rate was calculated as the number of cases for every 100,000 people in the state at a given point in time. 
+                This resolves the problem of comparing cities with a different number of habitats. It is not the same to compare Mexico city, which has around 28 million people, to Los Mochis which has roughly 300 thousand."),
+              fluidRow(box(plotlyOutput("scatter_plotly")),
+                       box(wellPanel(pickerInput("year_s","Year", choices=c(unique(scat$year)), 
+                                                 selected = unique(scat$year)[1], options = list(`actions-box` = FALSE),multiple = T),
+                                     pickerInput("var_s","Variable", choices=c(unique(scat$var)), 
+                                                 selected = unique(scat$var)[1], options = list(`actions-box` = FALSE),multiple = F)),
+                           p(style="text-align: justify;","We noticed that the relationship between the employment rate and the Death 
+                             rate is negative, meaning that a higher covid death rate is paired with lower employment.  
+                             The same occurs with working hours, and this is causal because of the lockdown policy. 
+                             Finally, we have that the log wage is positively correlated with the death rate, meaning that
+                             there was a risk premium on salaries. ")))
               ),
       
             ###autores
@@ -331,18 +413,18 @@ Concepts necessary to understand the conditions of the female labor market", ali
               fluidRow(
                 box(h4(strong("Raul Antonio Tirado Cossio"),align="center"),width = 4,
                     br(),
-                    HTML('<center><img src="r2.jpeg" width="100"></center>'),
+                    HTML('<center><img src="r2.jpeg" height="300" width="200"></center>'),
                     br(),
                     a("rtirado@colmex.mx", href = "mailto:rtirado@colmex.mx"),br(),
                     a("@Research Gate", href = "https://www.researchgate.net/profile/Raul-Tirado-Cossio"),align="center"),
-                box(h4(strong("Hector Gonzalez Magana"),align="center"),width = 4,
+                box(h4(strong("Hector Gonzalez Magana"),align="center"),h4("The gap master"),width = 4,
                     br(),
-                    HTML('<center><img src="hec.jpg" width="100"></center>'),
+                    HTML('<center><img src="hec.jpeg" height="300" width="200"></center>'),
                     br(),
                     a("hgonzalez@colmex.mx", href = "mailto:hgonzalez@colmex.mx"),align="center"),
                 box(h4(strong("Arlenne Fierros Hernandez"),align="center"),width = 4,
                     br(),
-                    HTML('<center><img src="arl.jpeg" width="100"></center>'),
+                    HTML('<center><img src="arl.jpeg" height="300" width="300"></center>'),
                     br(),
                     a("afierros@colmex.mx", href = "mailto:afierros@colmex.mx"),br(),
                     a("arlyfierros", href = "https://twitter.com"), align="center")

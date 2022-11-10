@@ -165,9 +165,12 @@ function(input, output,session,img_url) {
   ###tabla reactiva
   datasetInput <- reactive({
     datasetInput <- baseest %>% filter(year == input$year_m2) %>% select(ent, value) %>% arrange(desc(value))
+    
+    
      })
   
   output$mytable <- renderTable({
+    
     datasetInput()[1:5,]
   })
   
@@ -191,7 +194,7 @@ function(input, output,session,img_url) {
   
   hourInput <- reactive({
     
-    hourInput <- hours %>% filter(year %in% input$year_h, var == input$var_h, categoria %in% input$cat_h)
+    hourInput <- hours %>% filter(year %in% input$year_h[1]:input$year_h[2], var == input$var_h, categoria %in% input$cat_h)
     
   })
   
@@ -238,6 +241,32 @@ function(input, output,session,img_url) {
   })
   
   
+  ###Scatter
+  
+  scatterInput <- reactive({
+    
+    scatterInput <- scat %>% filter(year %in% input$year_s, var== input$var_s )
+    
+  })
+  
+  output$scatter_plotly <- renderPlotly({
+    
+    scatter <- ggplot(scatterInput(),aes(x=x,y=tasa, label= ent))+
+      geom_point(aes(color=as.factor(year)),size=1.5,shape=16)+
+      geom_smooth(method="lm",formula=y~x,se=FALSE,colour="grey",size=1,linetype = "dashed")+
+      ylab("COVID death rate")+
+      xlab("")+
+      theme(axis.line = element_line(size = .5, colour = "black"))+
+      ylim(10,NA)+ scale_colour_viridis_d() + theme_bw()
+    scatter <- ggplotly(scatter)
+    scatter  
+  })
+  
+  ###table qreg
+  output$qregtab <- renderTable({
+    
+    qregtab
+  })
   
     
 }

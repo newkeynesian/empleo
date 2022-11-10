@@ -190,3 +190,22 @@ qreg_graph
 q1 <- ggplotly(qreg_graph)
 
 q1
+
+
+### filtro bases covid
+
+covid <- read.csv("C:/Users/rault/Downloads/covid2.csv")
+
+a <- covid %>% group_by(poblacion, year,nombre,cve_ent,mes) %>% summarise(muertos=sum(muertos)) 
+
+a$trim[a$mes<=3] <- 1
+a$trim[a$mes>3 & a$mes<=6] <- 2
+a$trim[a$mes>6 & a$mes<=9] <- 3
+a$trim[a$mes>9 & a$mes<=12] <- 4
+
+a <- a %>% group_by(poblacion,year,nombre,cve_ent,trim) %>% summarise(muertos=sum(muertos)) 
+
+a$tasa <- (a$muertos/a$poblacion)*100000
+
+write.csv(a,"C:/Users/rault/Downloads/covid3.csv", row.names = FALSE)
+

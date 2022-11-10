@@ -103,3 +103,15 @@ hours$categoria <- as.character(hours$categoria)
 ###Econometrics 
 
 qreg <- read.csv("www/qreg.csv")
+
+
+
+###Scatter
+
+scat <- read.csv("www/covid_ent.csv")
+scat$var <- as.character(scat$var)
+
+### table econometircs
+
+qregtab <- as.data.frame(matrix(c("p25", "p50","p75","p99","6.86","1.75","1.67","-7.24","-18.24","-5.78","-5.17","-38.66","12.72","8.91","7.66","83.05"),ncol=4, nrow = 4))
+colnames(qregtab)<- c("Quantile","2019","2020", "2021")

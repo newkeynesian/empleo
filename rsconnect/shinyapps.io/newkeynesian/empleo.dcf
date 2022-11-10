@@ -5,10 +5,10 @@ account: newkeynesian
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7428855
-bundleId: 6494423
+bundleId: 6499325
 url: https://newkeynesian.shinyapps.io/empleo/
-when: 1668009935.83745
-lastSyncTime: 1668009935.83745
+when: 1668100109.34503
+lastSyncTime: 1668100109.34503
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: examples.R
