@@ -209,3 +209,7 @@ a$tasa <- (a$muertos/a$poblacion)*100000
 
 write.csv(a,"C:/Users/rault/Downloads/covid3.csv", row.names = FALSE)
 
+
+x <- "a1~!@#$%^&*(){}_+:\"<>?,./;'[]-=" #or whatever
+Data <- as.data.frame(gsub("''","" , mex_map$NOM_MUN ,ignore.case = TRUE))
+

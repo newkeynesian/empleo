@@ -158,8 +158,9 @@ In the Mexican case, since the end of the 20th century, the wage gap between men
                         p(style="text-align: justify;","We can see that the wage gap rapidly declined during the pandemic, but it has been the case since 2005.
                           The main reason for this is that  average male quarterly wage suffered a sharp fall during the first and second quarters of 2020."),
                         p(style="text-align: justify;","Furthermore,
-                          it is clear that after the pandemic there was a rebound effect that reversed the previously obtained gains."))),
-              h3("how does the wage gap behave conditioned in schooling?"),
+                          it is clear that after the pandemic there was a rebound effect that reversed the previously obtained gains."),
+                        downloadButton("downloadData1","Download",class="butt2"))),
+              h3("How does the wage gap behave conditioned in schooling?"),
               p(style="text-align: justify;","The upcoming graphs, show us the distribution of the Log quarterly wage for each sex and 
                 schooling level. It is important to mention that the distribution contemplates the period from 2015 to 2022.
                 To construct these distributions we use data from the Occupational survey, so the data also contains informal labor.
@@ -185,7 +186,8 @@ In the Mexican case, since the end of the 20th century, the wage gap between men
                                                        we will notice that one of them benefited from the pandemic, while the other does not."),
                                          p(style="text-align: justify;","For example, between 2020 and 2021 the first had an average quarterly wage loss of -12.8% 
                                          for the three categories, the Ph.D. workers were the most affected with a medium wage shrink of -7.5%, the latter category, on the other hand, 
-                                           experienced an increase of its average quarterly wage in 1.8% (not counting Technical careers and normal schools).")
+                                           experienced an increase of its average quarterly wage in 1.8% (not counting Technical careers and normal schools)."),
+                                    downloadButton("downloadData2","Download",class="butt2")
                                          )), 
                                                             )
               ),
@@ -237,7 +239,8 @@ In the Mexican case, since the end of the 20th century, the wage gap between men
                              places, at the metropolitan scale there may be spatial patterns of internal degrees of vulnerability. 
                              Women have experienced a loss of jobs and a drop in their labor income as a result of the pandemic,
                              but this has occurred in a differentiated way between the states due to the socioeconomic
-                             characteristics of each region.")
+                             characteristics of each region."),
+                           downloadButton("downloadData3","Download",class="butt2")
                         )),
               h2("Some facts about the mexican states"),
               fluidRow(tabBox(
@@ -306,11 +309,13 @@ In the Mexican case, since the end of the 20th century, the wage gap between men
                                                  selected = unique(mex_map$year)[5], options = list(`actions-box` = FALSE),multiple = F),
                                      pickerInput("est_m","Entity", choices=c(unique(mex_map$ent)), 
                                                  selected = unique(mex_map$ent)[2], options = list(`actions-box` = FALSE),multiple = F)),
-                          box(column(12, align="center",tableOutput("mytable"))),  box(p(style="text-align: justify;","The table displays a ranking of which states have the biggest gender gap in each year.
+                          box(column(12, align="center",tableOutput("mytable")), 
+                              downloadButton("downloadData4","Download",class="butt2")),  
+                              box(p(style="text-align: justify;","The table displays a ranking of which states have the biggest gender gap in each year.
                                                               The State which appear the most in different years is Quintana Roo."),
                                                             p(style="text-align: justify;","Let the table be a guide to select the entities that have a greater wage gap, and explore which counties are responsible for that.
-                                                            For example, in the year 2020, the worst entity was Aguascalientes, and the worst county in that state was El Llano.")), 
-                           )
+                                                            For example, in the year 2020, the worst entity was Aguascalientes, and the worst county in that state was El Llano.")
+                                                            ))
       )
       ),       ### Working Conditions
       
@@ -357,7 +362,8 @@ In the Mexican case, since the end of the 20th century, the wage gap between men
                            but, they would be willing to accept a job if they are offered, however, do not actively seek one. 
 The latter are people with the same delimitation as the first one, but with the distinction that they are not willing to accept a job even when offered."),
                            p(style="text-align: justify;","Finally, the sum of employed, unemployed, available, and non-available constitute the 
-                             entirety of the women's labor market. "),
+                             entirety of the women's labor market. "), 
+                           downloadButton("downloadData5","Download",class="butt2"),
                            ),
                        box(title = "Women labor market",plotlyOutput("w1_plotly"))),
               h1(""),
@@ -369,8 +375,21 @@ The latter are people with the same delimitation as the first one, but with the 
                                        selected = unique(hours$categoria)[1:5], options = list(`actions-box` = FALSE),multiple = T)),
                            p(style="text-align: justify;",'You can observe the evolution of weekly hours worked by women during the time period of 2015 to 2022. 
 The additional feature here is that you can classify the female workforce by income, position, schooling, and sector. For example, if you select income, you will
-                             now have five categories of income, the first being  "up to a minimum wage" and see how many hours per week the people that work for a minimum wage average through the year. ')))
-                       ), 
+                             now have five categories of income, the first being  "up to a minimum wage" and see how many hours per week the people that work for a minimum wage average through the year. '),
+                           downloadButton("downloadData6","Download",class="butt2")),
+                       ),
+              h2("Highlights"),
+              fluidRow(
+                column(3, wellPanel(a("Employment, wages, and the gender gap in Mexico: Evidence of the urban labor market", href="https://doi.org/10.1016/j.latcb.2022.100055"), 
+                                    br(""), (strong("Article | March 2022")))),
+                column(3, wellPanel(a("The Gendered Impacts of COVID-19 on Labor Markets in Latin America and the Caribbean", href="https://www.worldbank.org/en/results/2021/05/05/the-gendered-impacts-of-covid-19-on-labor-markets-in-latin-america-and-the-caribbean"), 
+                                    br(""), (strong("The World Bank | May 2021")))),
+                column(3, wellPanel(a("Gender and Employment in the COVID-19 Recession: Evidence on “She-cessions", href="https://www.imf.org/en/Publications/WP/Issues/2021/03/31/Gender-and-Employment-in-the-COVID-19-Recession-Evidence-on-She-cessions-50316"), 
+                                    br(""), (strong("IMF Working Paper | March 2021")))),
+                column(3, wellPanel(a("COVID-19 and gender equality: Countering the regressive effects", href="https://www.mckinsey.com/featured-insights/future-of-work/covid-19-and-gender-equality-countering-the-regressive-effects"), 
+                                    br(""), (strong("McKinsey & Company | July 2020")))),
+              ),
+              ), 
       tabItem(tabName = "eco",
               h1("Econometric Analysis"),
               p(style="text-align: justify;","We present some simple econometric analyses that will help us understand the effects of the covid pandemic on woman labor conditions. 
@@ -389,7 +408,8 @@ The additional feature here is that you can classify the female workforce by inc
                                                                              for the first quartile there was an increase of the gap of about 6.86 percent 
                                                                              between 2018 and 2019. During the first year of the pandemic, we can see that 
                                                                              the gap drastically closed for the top quantiles, but not for the first 75 percent 
-                                                                             of the income distribution. After that, the inequality recovered the pre-pandemic levels.") )),
+                                                                             of the income distribution. After that, the inequality recovered the pre-pandemic levels."),
+                       downloadButton("downloadData7","Download",class="butt2"))),
               h2("Scatter plot of the Covid Dead Rate and other Variables"),
               p(style="text-align: justify;","The covid death rate was calculated as the number of cases for every 100,000 people in the state at a given point in time. 
                 This resolves the problem of comparing cities with a different number of habitats. It is not the same to compare Mexico city, which has around 28 million people, to Los Mochis which has roughly 300 thousand."),
@@ -402,7 +422,8 @@ The additional feature here is that you can classify the female workforce by inc
                              rate is negative, meaning that a higher covid death rate is paired with lower employment.  
                              The same occurs with working hours, and this is causal because of the lockdown policy. 
                              Finally, we have that the log wage is positively correlated with the death rate, meaning that
-                             there was a risk premium on salaries. ")))
+                             there was a risk premium on salaries. "),
+                           downloadButton("downloadData8","Download",class="butt2")))
               ),
       
             ###autores
@@ -421,20 +442,24 @@ The additional feature here is that you can classify the female workforce by inc
                     br(),
                     HTML('<center><img src="hec.jpeg" height="300" width="200"></center>'),
                     br(),
-                    a("hgonzalez@colmex.mx", href = "mailto:hgonzalez@colmex.mx"),align="center"),
-                box(h4(strong("Arlenne Fierros Hernandez"),align="center"),width = 4,
+                    a("hgonzalez@colmex.mx", href = "mailto:hgonzalez@colmex.mx"),br(),
+                 a("@gmagana_hector", href = "https://twitter.com/gmagana_hector"),align="center"),
+                      box(h4(strong("Arlenne Fierros Hernandez"),align="center"),width = 4,
                     br(),
                     HTML('<center><img src="arl.jpeg" height="300" width="300"></center>'),
                     br(),
-                    a("afierros@colmex.mx", href = "mailto:afierros@colmex.mx"),br(),
-                    a("arlyfierros", href = "https://twitter.com"), align="center")
+                    a("afierros@colmex.mx", href = "mailto:afierros@colmex.mx"),align="center",br()
+                    
                 
-              ),
+              )),
               br(),
               br(),
               h5("",
-                 tags$a(target="_blank",href="https://github.com/diego-eco/proyecto_visualizacion","GitHub Repository")," Thanks for visiting!",br(), 
+                 tags$a(target="_blank",href="https://github.com/newkeynesian/empleo","GitHub Repository")," Thanks for visiting!",br(), 
                  strong("If you have any comments, please let us know."),align = "center"),
+              h6("",
+                 tags$a(imageOutput("image1"), href="https://www.caliente.mx/inicio?gclsrc=aw.ds"),align = "center"
+                 )
               
       )
               

@@ -20,6 +20,14 @@ function(input, output,session,img_url) {
     gr2 
   }) 
   
+  output$downloadData2 <- downloadHandler(
+    filename = function() {
+      paste("quarterly_awage-", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      write.csv(salmed, file)
+    }
+  )  
   
   
   
@@ -85,7 +93,7 @@ function(input, output,session,img_url) {
     
     
     gr1 <- ggplot(df_sal(), aes(x = date, y=saltrim, group=sex, color=sex)) + geom_line() +
-      geom_point() +  theme_bw() +xlab("Date") +
+      geom_point() +  theme_bw() +xlab("Date") +labs(color = "Sex") +
       ylab("Quarterly Wage, 2022 Constant pesos")  + scale_colour_manual(values=cbPalette)
     
     
@@ -93,7 +101,14 @@ function(input, output,session,img_url) {
     
     gr1
     })
-  
+  output$downloadData1 <- downloadHandler(
+    filename = function() {
+      paste("quarterly_wage-", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      write.csv(enoe_sal_gen_trim, file)
+    }
+  )
 
 ##### MAPA muni
   
@@ -104,7 +119,7 @@ function(input, output,session,img_url) {
   
   output$mp1_plotly <- renderPlotly({
   
-  mapa2 <-    ggplot(data=df_map(),aes(fill = nivel, label=paste(NOM_MUN,":",gap, sep=""))) +
+  mapa2 <-    ggplot(data=df_map(),aes(fill = nivel, text= paste(NOM_MUN,": ",round(gap, digits = 2), sep=""))) +
     geom_sf(colour = "black",  size = 0.1) +
     scale_fill_viridis_d() +
     labs(title = "",
@@ -125,9 +140,17 @@ function(input, output,session,img_url) {
           panel.background = element_rect(fill='white'),
           plot.title = element_text(size=16))
   
-  mapa2 <- ggplotly(mapa2)
+  mapa2 <- ggplotly(mapa2, tooltip = c("fill","text"))
   mapa2
   })
+  output$downloadData3<- downloadHandler(
+    filename = function() {
+      paste("state_map-", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      write.csv(baseest, file)
+    }
+  )
   
   ##### MAPA est 
   # reactiva mapa est
@@ -137,7 +160,7 @@ function(input, output,session,img_url) {
   
   output$mp2_plotly <- renderPlotly({
     
-    mapa2 <-    ggplot(data=df_map_est(),aes(fill = cuartil, label= paste(ent,":",value, sep=""))) +
+    mapa2 <-    ggplot(data=df_map_est(),aes(fill = cuartil, text= paste(ent,": ",round(value,digits = 2), sep=""))) +
       geom_sf(colour = "black",  size = 0.1) +
       scale_fill_viridis_d() +
       labs(title = "",
@@ -158,9 +181,17 @@ function(input, output,session,img_url) {
             panel.background = element_rect(fill='white'),
             plot.title = element_text(size=16))
     
-    mapa2 <- ggplotly(mapa2)
+    mapa2 <- ggplotly(mapa2, tooltip = c("fill","text"))
     mapa2
   })
+  output$downloadData4<- downloadHandler(
+    filename = function() {
+      paste("county_map-", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      write.csv(base, file)
+    }
+  )
   
   ###tabla reactiva
   datasetInput <- reactive({
@@ -184,11 +215,19 @@ function(input, output,session,img_url) {
     
     w1 <-  ggplot(employInput(), aes(x=var,y=value, fill= as.factor(year))) + 
       geom_bar(position="dodge",stat="identity") + theme_bw() +xlab("Variable") +
-      ylab("Percentage")  + scale_fill_manual(values=cbPalette)  
+      ylab("Percentage")  + scale_fill_manual(values=cbPalette)  + labs(fill="Year")
     
     w1 <- ggplotly(w1)
     w1
   })
+  output$downloadData5 <- downloadHandler(
+    filename = function() {
+      paste("labor_market-", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      write.csv(employ, file)
+    }
+  )
   
   ### hour wage
   
@@ -203,12 +242,19 @@ function(input, output,session,img_url) {
     
     h1 <-  ggplot(hourInput(), aes(x=year,y=hrs, group=as.factor(categoria), color=as.factor(categoria))) + 
       geom_line()+ geom_point() + theme_bw() +xlab("Years") + scale_color_viridis(discrete = TRUE) +
-      ylab("Weekly Hours")
+      ylab("Weekly Hours")+ labs(color="Category")
     
     h1 <- ggplotly(h1)
     h1
   })
-  
+  output$downloadData6 <- downloadHandler(
+    filename = function() {
+      paste("worked_hours-", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      write.csv(hours, file)
+    }
+  )
   
   ### Econometria
   
@@ -233,12 +279,20 @@ function(input, output,session,img_url) {
         "OLS coefficient" = "black",
         #"Qreg CI" = "grey",
         "OLS CI" = "grey")) +
-      labs(y="Percent wage gap", x="Percentile")+
+      labs(y="Percent wage gap", x="Percentile", color="Variable")+
       theme_bw()
     
     q1 <- ggplotly(q1)
     q1
   })
+  output$downloadData7 <- downloadHandler(
+    filename = function() {
+      paste("worked_hours-", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      write.csv(qreg, file)
+    }
+  )
   
   
   ###Scatter
@@ -257,7 +311,7 @@ function(input, output,session,img_url) {
       ylab("COVID death rate")+
       xlab("")+
       theme(axis.line = element_line(size = .5, colour = "black"))+
-      ylim(10,NA)+ scale_colour_viridis_d() + theme_bw()
+      ylim(10,NA)+ scale_colour_viridis_d() + theme_bw() + labs(color="year")
     scatter <- ggplotly(scatter)
     scatter  
   })
@@ -267,6 +321,21 @@ function(input, output,session,img_url) {
     
     qregtab
   })
+  output$downloadData8 <- downloadHandler(
+    filename = function() {
+      paste("scatter-", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      write.csv(scat, file)
+    }
+  )
+
+  output$image1 <- renderImage({
+    list(src = "www/anuncio.jpeg",
+         contentType = 'image/jpeg',
+         width = 600,
+         height = 300)
+  }, deleteFile = FALSE)
   
     
 }

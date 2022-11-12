@@ -69,12 +69,13 @@ cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2",
 
 
 base  <- read.csv("www/base_muni.csv")
-shape_file <- read_sf("www/municd/municd.shp")
+shape_file <- read_sf("www/municd/municd.shp", options = "ENCODING=WINDOWS-1252")
 shape_file$CVE_MUN <- as.numeric(shape_file$CVE_MUN)
 shape_file$CVE_ENT <- as.numeric(shape_file$CVE_ENT)
 mex_map <- shape_file %>% left_join(base, by = c( "CVE_ENT"="clave","CVE_MUN"="mun"))
 mex_map$ent <- as.character(mex_map$ent)
 mex_map<- mex_map %>% filter(!is.na(year), !is.na(ent))
+
 
 
 ###BASE MAPA est
