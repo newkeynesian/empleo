@@ -93,8 +93,7 @@ Concepts necessary to understand the conditions of the female labor market", ali
                 tabBox(width = 12,
                        title = "Select a category",
                        id = "tabset1", height = "300px",
-                                              tabPanel("Brief History", p(style="text-align: justify;","Women’s situation in the Mexican labor market
-During the 1980s and 1990s, women's participation in the labor market increased, largely due to the impacts that the restructuring processes and economic crisis had on households. In that period, the insertion of women into the labor market acted as a compensatory mechanism for households: to face income loss by other members of the household, women had to insert themselves into market activities to preserve the purchasing power of the household. However, this expansion was later followed by a period of stagnation in the percentage of women participating in the Mexican labor market .
+                                              tabPanel("Brief History", p(style="text-align: justify;","During the 1980s and 1990s, women's participation in the labor market increased, largely due to the impacts that the restructuring processes and economic crisis had on households. In that period, the insertion of women into the labor market acted as a compensatory mechanism for households: to face income loss by other members of the household, women had to insert themselves into market activities to preserve the purchasing power of the household. However, this expansion was later followed by a period of stagnation in the percentage of women participating in the Mexican labor market .
 The low female participation in the labor market, as well as the experience of women within the labor field, is the result of the social norms that regulate the autonomy of women. These traditional social norms establish a relationship of subordination between men and women, where women are subordinate to men . This relationship of subordination has persisted over time and prevails in some current work situations for women."),
                                                        p(style="text-align: justify;","In relation to the labor market, traditional social norms establish that care work must be carried out mostly by women who live in households, this directly affects the decision of women about participating or not in the labor market. The persistence of these norms is mainly because they are transmitted from generation to generation by those men and women who preserve these types of ideologies. These norms shape the experience of women in the labor market . The explicit expression of these norms is harassment and discrimination in the workplace, such as the wage gap that characterizes the Mexican labor market.
 In the Mexican case, since the end of the 20th century, the wage gap between men and women, conditioning by characteristics such as education, age, among other variables, has been reduced to a gap of 9% in the first decade of the 21st century; however, this closing of the labor gap is mainly due to the fact that women who participate in the Mexican labor market are inserted in better paid jobs than the vast majority of those in which men are inserted ."),
@@ -338,7 +337,7 @@ In the Mexican case, since the end of the 20th century, the wage gap between men
                          in the labor participation of women has important consequences in other dimensions of employment and in the distribution of
                          unpaid work, which affect the way in which women access opportunities in the economic sphere, as well as in other spheres of 
                          life."),
-                       p(style="text-align: justify;","The In the graph, we can see how the average 
+                       p(style="text-align: justify;","In the graph, we can see how the average 
                          weekly minutes for the women's labor force have moved each year."),
                        p(style="text-align: justify;","2020 stands out as the change in 
                          weekly working time measured in minutes drops by around 67 units.We think that the main cause of this dramatic drop in 
@@ -438,7 +437,7 @@ The additional feature here is that you can classify the female workforce by inc
                     br(),
                     a("rtirado@colmex.mx", href = "mailto:rtirado@colmex.mx"),br(),
                     a("@Research Gate", href = "https://www.researchgate.net/profile/Raul-Tirado-Cossio"),align="center"),
-                box(h4(strong("Hector Gonzalez Magana"),align="center"),h4("The gap master"),width = 4,
+                box(h4(strong("Hector Gonzalez Magana"),align="center"),width = 4,
                     br(),
                     HTML('<center><img src="hec.jpeg" height="300" width="200"></center>'),
                     br(),
@@ -457,9 +456,7 @@ The additional feature here is that you can classify the female workforce by inc
               h5("",
                  tags$a(target="_blank",href="https://github.com/newkeynesian/empleo","GitHub Repository")," Thanks for visiting!",br(), 
                  strong("If you have any comments, please let us know."),align = "center"),
-              h6("",
-                 tags$a(imageOutput("image1"), href="https://www.caliente.mx/inicio?gclsrc=aw.ds"),align = "center"
-                 )
+              
               
       )
               

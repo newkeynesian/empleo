@@ -337,5 +337,14 @@ function(input, output,session,img_url) {
          height = 300)
   }, deleteFile = FALSE)
   
+  
+  observeEvent(c(input$var_h),{
+    obj_1 <-  hours   %>% filter(var == input$var_h)
+    updatePickerInput(session=session, inputId = "cat_h", 
+                      choices = unique(obj_1$categoria),
+                      selected = unique(obj_1$categoria)[1:2])
+    
+    
+  })
     
 }
